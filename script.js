@@ -235,7 +235,7 @@ function drawMenu() {
   ctx.font = "40px Comic Sans MS";
   ctx.fillStyle = "black";
   ctx.textAlign = "center";
-  ctx.fillText("Flappy Bird", baseCanvasWidth / 2, baseCanvasHeight / 2 - 100);
+  ctx.fillText("Mocky Bird", baseCanvasWidth / 2, baseCanvasHeight / 2 - 100);
   
   menuItems.forEach(item => {
     ctx.font = item.hover ? "bold 34px Comic Sans MS" : menuFont;
